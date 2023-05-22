@@ -14,8 +14,7 @@ const UsersList = (props) => {
     }
     return (
         <ul className="users-list">
-            {
-                items.map((user) => {
+            {                items.map((user) => {
                     return (
                         
                         <UserItem
